@@ -1,15 +1,87 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.article {
+  /* border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1); */
+  margin: 20px;
+  padding-inline: 10px;
+
+}
+
+.navbar {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Lucida Console;
+}
+.wikinimous {
+  padding: 5px;
+  text-decoration: none;
+}
+
+.new-article {
+  padding: 5px;
+  text-decoration: none;
+}
+
+.title {
+  color: cornflowerblue;
+  margin: 1px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.article-content {
+  color: gray;
+  margin: 1px;
+  padding: 0;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+.content-text-field {
+  height: 200px;
+  border-radius: 5px;
+}
+
+.title-text-field {
+  border-radius: 5px;
+}
+input {
+  margin-bottom: 10px;
+}
+textarea {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article-header {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
